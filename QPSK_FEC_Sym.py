@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mp
 import time as tm
 
-# Set up QPSK link with AGWN: carrier, clock recovery schemes and FEC as a simulation
+# Set up QPSK link with AGWN: carrier, clock recovery schemes and FEC (using Voyager code) as a simulation
 
 Nrep = 8 # number of times to repeat preamble
 f_off = 0.1 #carrier offset frequency
@@ -23,7 +23,7 @@ phi0 = 0.0
 Eps = 1e-3
 
 
-# rate 1/2 length 7 encoder weights
+# rate 1/2 length 7 encoder weights (Voyager convolutional code)
 weight1 = 0x4f # 1001111
 weight2 = 0x6d # 1101101
 state = int(0)
