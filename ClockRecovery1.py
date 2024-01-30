@@ -6,7 +6,7 @@ import matplotlib.patches as mp
 import time as tm
 
 N = int(15000) # Number of symbols
-EsN0 = 100.0     # Symbol energy to noise spectral density ratio (fractional)
+EsN0 = 10.0     # Symbol energy to noise spectral density ratio (fractional)
 Ns = 100       # Number of samples per symbol
 
 Symbols = [1.0+1.0j, 1.0-1.0j, -1.0-1.0j, -1.0+1.0j]
